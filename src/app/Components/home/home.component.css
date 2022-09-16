@@ -1,4 +1,13 @@
 .mainHr{
-    width: 75%;
+    width: 35%;
     margin: auto;
+    color:brown;
+    background: brown;
+    height: 0.2rem;
+}
+
+.introduction p{
+    font-size: 20px;
+    padding-left: 35%;
+    padding-top: 10px;
 }
