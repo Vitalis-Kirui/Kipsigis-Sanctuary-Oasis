@@ -1,0 +1,20 @@
+/* Navbar stylings */
+.navbar{
+    background-color: green;
+    width: 100%;
+    padding-left: 10%;
+}
+
+.navbar a{
+    color:white;
+    font-size: 22px;
+}
+
+.rigthLinks{
+    padding-left: 25%;
+    display: flex;
+}
+
+.rigthLinks a{
+    justify-content: space-around;
+}
