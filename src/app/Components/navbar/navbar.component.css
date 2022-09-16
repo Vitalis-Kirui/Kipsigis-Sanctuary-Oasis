@@ -2,7 +2,7 @@
 .navbar{
     background-color: green;
     width: 100%;
-    padding-left: 10%;
+    padding-left: 15%;
 }
 
 .navbar a{
@@ -11,10 +11,19 @@
 }
 
 .rigthLinks{
-    padding-left: 25%;
-    display: flex;
+    padding-left: 35%;
 }
 
-.rigthLinks a{
-    justify-content: space-around;
+.one, .two, .three, .four{
+    padding-left: 25px !important;
+    font-weight: bold;
+}
+
+nav a :hover{
+    color: yellow;
+}
+
+.rigthLinks a:hover{
+    color: yellow;
+    font-size: 25px;
 }
