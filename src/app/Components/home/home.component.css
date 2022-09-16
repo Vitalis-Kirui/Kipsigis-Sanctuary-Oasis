@@ -23,3 +23,30 @@
     color: white;
     font-weight: 900;
 }
+
+/* About KOS section styles */
+.aboutKOS{
+    padding: 25px;
+    padding-top:40px;
+    background-color:rgb(197, 202, 206);
+    text-align: center;
+    /* width: 85%;
+    margin: auto; */
+    margin-top: 30px;
+}
+
+h2{
+    color: green;
+}
+
+.headHR{
+    width: 20%;
+    margin: auto;
+    color: green;
+    background: green;
+    height: 3px;
+}
+
+.aboutKOS p{
+    padding-top: 20px;
+}
