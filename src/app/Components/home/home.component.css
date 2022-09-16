@@ -49,4 +49,21 @@ h2{
 
 .aboutKOS p{
     padding-top: 20px;
+    display: flex;
+}
+
+.homeBTN{
+    font-size: 20px;
+    padding: 10px;
+    color:white ;
+    background-color: green;
+    border-radius: 45px;
+    font-weight: 600;
+}
+
+.buttons button:hover{
+    background-color: green;
+    color: white;
+    font-size:21px;
+    padding: 12px;
 }
