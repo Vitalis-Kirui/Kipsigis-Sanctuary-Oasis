@@ -86,3 +86,12 @@ h2{
 .structures{
     padding-top: 3%;
 }
+
+.structures h3{
+    color: brown;
+}
+
+.structures p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
