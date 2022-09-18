@@ -49,6 +49,7 @@ h2{
     color: green;
     background: green;
     height: 3px;
+    margin-bottom: 3%;
 }
 
 .aboutKOS p{
@@ -94,4 +95,10 @@ h2{
 .structures p{
     color: rgb(0, 0, 0);
     font-size: 20px;
+}
+
+/* Gallery section styles  */
+
+.gallery{
+    margin-top: 3%;
 }
