@@ -102,3 +102,23 @@ h2{
 .gallery{
     margin-top: 3%;
 }
+
+.gallery1HR{
+    width: 60%;
+    margin: auto;
+    margin-top: 40%;
+    margin-bottom: 0;
+    transform: rotate(90deg);
+    border-color: #000000;
+}
+
+.top{
+    margin-top: 5%;
+    /* display: flex; */
+    width: 90%;
+    margin: auto;
+}
+
+.description{
+    padding-top:7%;
+}
