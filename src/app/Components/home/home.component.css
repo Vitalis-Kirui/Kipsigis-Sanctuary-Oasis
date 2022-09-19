@@ -28,7 +28,7 @@
 .aboutKOS{
     padding: 25px;
     padding-top:40px;
-    background-color:rgb(197, 202, 206);
+    background-color:rgb(233, 235, 236);
     text-align: center;
     /* width: 85%;
     margin: auto; */
@@ -124,15 +124,20 @@ h2{
 }
 
 .mid{
-    padding-top: 5%;
+    padding-top: 2%;
     /* display: flex; */
     width: 90%;
     margin: auto;
 }
 
 .last{
-    padding-top: 5%;
+    padding-top: 2%;
     /* display: flex; */
     width: 90%;
     margin: auto;
+}
+
+.structures-images{
+    width: 90%;
+    height: auto;
 }
