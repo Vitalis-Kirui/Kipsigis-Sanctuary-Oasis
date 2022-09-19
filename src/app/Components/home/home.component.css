@@ -123,6 +123,13 @@ h2{
     padding-top:7%;
 }
 
+.mid{
+    padding-top: 5%;
+    /* display: flex; */
+    width: 90%;
+    margin: auto;
+}
+
 .last{
     padding-top: 5%;
     /* display: flex; */
