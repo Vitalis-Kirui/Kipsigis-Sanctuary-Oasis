@@ -1,0 +1,17 @@
+.top{
+    margin-top: 3%;
+}
+
+.top hr{
+    color: green;
+}
+
+.topHR{
+    width: 250px;
+    border: 2px solid green;
+}
+
+.top p{
+    width:90%;
+    padding-left: 1%;
+}
