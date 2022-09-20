@@ -2,6 +2,7 @@
     background: url('/assets/images/about/about.jpg') fixed;
     background-size: cover;
 }
+
 h2{
     color: green;
     text-decoration: underline green 3px;
