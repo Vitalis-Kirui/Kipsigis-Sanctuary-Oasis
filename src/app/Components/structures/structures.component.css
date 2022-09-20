@@ -3,15 +3,6 @@
     margin-top: 3%;
 }
 
-.top hr{
-    color: green;
-}
-
-.topHR{
-    width: 250px;
-    border: 2px solid green;
-}
-
 .top p{
     width:90%;
     padding-left: 1%;
@@ -19,6 +10,7 @@
 
 .top h2{
     color: green;
+    text-decoration: underline green 4px;
 }
 
 /* Container section for structures styles sections  */
@@ -27,12 +19,17 @@
     margin-top: 3%;
 }
 
-.rightH4{
+/* Left structures styles */
+
+.leftH4{
     color: brown;
+    text-decoration:underline 4px brown;
 }
 
-.rightHR{
+/* Right side structures universal styles */
+
+.rightH4{
     color: brown;
-    width: 100px;
-    border: 2px solid brown;
+    float: right;
+    text-decoration: underline brown 4px;
 }
