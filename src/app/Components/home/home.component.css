@@ -45,15 +45,7 @@
 
 h2{
     color: green;
-}
-
-.headHR{
-    width: 20%;
-    margin: auto;
-    color: green;
-    background: green;
-    height: 3px;
-    margin-bottom: 3%;
+    text-decoration: underline 3px solid green;
 }
 
 .aboutKOS p{
@@ -123,25 +115,37 @@ h2{
     margin: auto;
 }
 
-.description{
-    padding-top:7%;
-}
-
 .mid{
     padding-top: 2%;
     /* display: flex; */
-    width: 90%;
+    /* width: 90%; */
     margin: auto;
 }
 
 .last{
     padding-top: 2%;
     /* display: flex; */
-    width: 90%;
+    /* width: 90%; */
     margin: auto;
 }
 
 .structures-images{
     width: 90%;
     height: auto;
+}
+
+.withImages{
+    width: 75%;
+    margin: auto;
+    padding-top: 3%;
+}
+
+.col{
+    border-bottom: 1px solid green;
+    padding-bottom : 2%;
+    padding-top: 2%;
+}
+
+.mid img{
+    float: right;
 }
