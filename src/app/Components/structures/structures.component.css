@@ -57,3 +57,11 @@
 .right img{
     float: right;
 }
+
+button{
+    color: white;
+    font-size: 18px;
+    background-color: rgb(170, 70, 70);
+    padding: 10px;
+    border-radius: 45px;
+}
