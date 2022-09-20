@@ -1,3 +1,4 @@
+/* Title and int's introductory part styles */
 .top{
     margin-top: 3%;
 }
@@ -14,4 +15,24 @@
 .top p{
     width:90%;
     padding-left: 1%;
+}
+
+.top h2{
+    color: green;
+}
+
+/* Container section for structures styles sections  */
+
+.structures{
+    margin-top: 3%;
+}
+
+.rightH4{
+    color: brown;
+}
+
+.rightHR{
+    color: brown;
+    width: 100px;
+    border: 2px solid brown;
 }
