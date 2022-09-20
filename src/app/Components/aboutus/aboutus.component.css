@@ -1,0 +1,20 @@
+.container-fluid{
+    background: url('/assets/images/about/about.jpg') fixed;
+    background-size: cover;
+}
+h2{
+    color: green;
+    text-decoration: underline green 3px;
+}
+
+.aboutus{
+    background-color: rgb(245, 242, 238);
+    width: 75%;
+    margin: auto;
+    opacity: 0.9;
+    padding: 5%;
+}
+
+.contactus{
+    padding-top: 20px;
+}
