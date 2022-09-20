@@ -17,6 +17,8 @@
 
 .structures{
     margin-top: 3%;
+    width: 70%;
+    margin: auto;
 }
 
 /* Left structures styles */
@@ -24,6 +26,7 @@
 .leftH4{
     color: brown;
     text-decoration:underline 4px brown;
+    padding-bottom: 1%;
 }
 
 /* Right side structures universal styles */
@@ -32,4 +35,25 @@
     color: brown;
     float: right;
     text-decoration: underline brown 4px;
+    padding-bottom: 1%;
+}
+
+.structures img{
+    width: 75%;
+    margin: auto;
+    height: auto;
+}
+
+.row{
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border-bottom: 1px solid brown;
+}
+
+.structures p{
+    padding-top: 5%;
+}
+
+.right img{
+    float: right;
 }
