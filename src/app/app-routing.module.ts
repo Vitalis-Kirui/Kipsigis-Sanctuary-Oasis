@@ -7,6 +7,7 @@ import { GalleryComponent } from './Components/gallery/gallery.component';
 import { GateComponent } from './Components/gate/gate.component';
 import { HallComponent } from './Components/hall/hall.component';
 import { HomeComponent } from './Components/home/home.component';
+import { NotFoundComponent } from './Components/not-found/not-found.component';
 import { ShadesComponent } from './Components/shades/shades.component';
 import { StructuresComponent } from './Components/structures/structures.component';
 import { WrittingsComponent } from './Components/writtings/writtings.component';
@@ -21,7 +22,8 @@ const routes: Routes = [
   { path: 'structures/culture', component: CultureComponent },
   { path: 'structures/gate', component: GateComponent },
   { path: 'structures/accommondations', component: AccommondationsComponent},
-  { path: 'structures/writtings', component: WrittingsComponent}
+  { path: 'structures/writtings', component: WrittingsComponent },
+  {path: '**', component : NotFoundComponent}
 ];
 
 @NgModule({

@@ -15,6 +15,7 @@ import { CultureComponent } from './Components/culture/culture.component';
 import { GateComponent } from './Components/gate/gate.component';
 import { AccommondationsComponent } from './Components/accommondations/accommondations.component';
 import { WrittingsComponent } from './Components/writtings/writtings.component';
+import { NotFoundComponent } from './Components/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { WrittingsComponent } from './Components/writtings/writtings.component';
     CultureComponent,
     GateComponent,
     AccommondationsComponent,
-    WrittingsComponent
+    WrittingsComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
