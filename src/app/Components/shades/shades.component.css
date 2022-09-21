@@ -1,0 +1,20 @@
+/* Intorductory section styles */
+.title h2{
+    color: green;
+    text-decoration: underline 3px solid green;
+}
+
+.images{
+    width: 100%;
+}
+
+.images h4{
+    color: brown;
+    text-decoration: underline 3px solid;
+}
+
+.images img{
+    width: 100%;
+    padding-bottom: 20px;
+
+}
