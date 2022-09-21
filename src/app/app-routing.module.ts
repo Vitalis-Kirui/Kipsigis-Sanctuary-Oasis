@@ -16,16 +16,12 @@ const routes: Routes = [
   { path: 'structures', component: StructuresComponent },
   { path: 'aboutus', component: AboutusComponent },
   { path: 'gallery', component: GalleryComponent },
-  { path: 'shades', component: ShadesComponent },
-  { path: 'hall', component: HallComponent },
-  { path: 'culture', component: CultureComponent },
-  { path: 'gate', component: GateComponent },
-  { path: 'accommondations', component: AccommondationsComponent},
-  { path: 'writtings', component: WrittingsComponent}
-
-
-
-
+  { path: 'structures/shades', component: ShadesComponent },
+  { path: 'structures/hall', component: HallComponent },
+  { path: 'structures/culture', component: CultureComponent },
+  { path: 'structures/gate', component: GateComponent },
+  { path: 'structures/accommondations', component: AccommondationsComponent},
+  { path: 'structures/writtings', component: WrittingsComponent}
 ];
 
 @NgModule({
