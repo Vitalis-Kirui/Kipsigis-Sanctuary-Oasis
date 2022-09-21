@@ -23,7 +23,8 @@ const routes: Routes = [
   { path: 'structures/gate', component: GateComponent },
   { path: 'structures/accommondations', component: AccommondationsComponent},
   { path: 'structures/writtings', component: WrittingsComponent },
-  {path: '**', component : NotFoundComponent}
+  { path: '', redirectTo: 'home', pathMatch: "full" },
+  { path: '**', component: NotFoundComponent }
 ];
 
 @NgModule({
