@@ -1,3 +1,4 @@
+/* About us section styles */
 .container-fluid{
     background: url('/assets/images/about/about.jpg') fixed;
     background-size: cover;
@@ -16,6 +17,42 @@ h2{
     padding: 5%;
 }
 
+/* Contact us section styles */
 .contactus{
     padding-top: 20px;
+    width: 75%;
+    margin: auto;
+}
+
+.contactus a{
+    text-decoration: none;
+}
+
+.contactus p, .icons{
+    font-size: 18px;
+}
+
+.left, .icons{
+    padding-left: 10%;
+}
+
+.fa {
+    padding: 25px;
+    /* padding-left:15%; */
+    font-size: 30px;
+    /* text-align: center; */
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+.fa-youtube{
+    color: red;
+}
+
+.fa-twitter{
+    color: rgb(43, 214, 226);
+}
+
+.fa:hover {
+    font-size: 34px;
 }
