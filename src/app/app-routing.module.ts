@@ -1,11 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutusComponent } from './Components/aboutus/aboutus.component';
+import { AccommondationsComponent } from './Components/accommondations/accommondations.component';
+import { CultureComponent } from './Components/culture/culture.component';
 import { GalleryComponent } from './Components/gallery/gallery.component';
+import { GateComponent } from './Components/gate/gate.component';
 import { HallComponent } from './Components/hall/hall.component';
 import { HomeComponent } from './Components/home/home.component';
 import { ShadesComponent } from './Components/shades/shades.component';
 import { StructuresComponent } from './Components/structures/structures.component';
+import { WrittingsComponent } from './Components/writtings/writtings.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -13,7 +17,15 @@ const routes: Routes = [
   { path: 'aboutus', component: AboutusComponent },
   { path: 'gallery', component: GalleryComponent },
   { path: 'shades', component: ShadesComponent },
-  {path:'hall', component : HallComponent}
+  { path: 'hall', component: HallComponent },
+  { path: 'culture', component: CultureComponent },
+  { path: 'gate', component: GateComponent },
+  { path: 'accommondations', component: AccommondationsComponent},
+  { path: 'writtings', component: WrittingsComponent}
+
+
+
+
 ];
 
 @NgModule({
