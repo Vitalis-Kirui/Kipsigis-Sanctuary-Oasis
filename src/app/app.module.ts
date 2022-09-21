@@ -10,6 +10,7 @@ import { StructuresComponent } from './Components/structures/structures.componen
 import { AboutusComponent } from './Components/aboutus/aboutus.component';
 import { GalleryComponent } from './Components/gallery/gallery.component';
 import { ShadesComponent } from './Components/shades/shades.component';
+import { HallComponent } from './Components/hall/hall.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ShadesComponent } from './Components/shades/shades.component';
     StructuresComponent,
     AboutusComponent,
     GalleryComponent,
-    ShadesComponent
+    ShadesComponent,
+    HallComponent
   ],
   imports: [
     BrowserModule,
