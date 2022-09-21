@@ -11,6 +11,7 @@ import { AboutusComponent } from './Components/aboutus/aboutus.component';
 import { GalleryComponent } from './Components/gallery/gallery.component';
 import { ShadesComponent } from './Components/shades/shades.component';
 import { HallComponent } from './Components/hall/hall.component';
+import { CultureComponent } from './Components/culture/culture.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HallComponent } from './Components/hall/hall.component';
     AboutusComponent,
     GalleryComponent,
     ShadesComponent,
-    HallComponent
+    HallComponent,
+    CultureComponent
   ],
   imports: [
     BrowserModule,
