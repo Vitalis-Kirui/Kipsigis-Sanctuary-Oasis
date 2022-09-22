@@ -8,3 +8,9 @@ h2{
     color: green;
     text-decoration: underline 3px solid  green;
 }
+
+img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 3%;
+}
